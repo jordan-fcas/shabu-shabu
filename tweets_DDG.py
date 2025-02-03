@@ -5,6 +5,10 @@ import urllib.parse
 import re
 import time
 
+"""
+Script to scrape twitter handles based on DuckDuckGo search results for a person's name.
+"""
+
 def get_twitter_handle(name):
     query = name
     # Encode the query string
