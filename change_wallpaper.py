@@ -6,7 +6,7 @@ from tkinter import Tk, Label
 
 
 """
-Script to automatically change 3-6 desktop wallpapers on Mac using a photos folder.
+Script to automatically change 3-6 desktop wallpapers on Mac using photos from path '~/Desktop/Wallpapers'.
 """
 
 # Path to your wallpapers folder on the Desktop
