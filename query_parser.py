@@ -328,51 +328,6 @@ def print_summary(summary_dict):
 ###############################################################################
 if __name__ == "__main__":
     sample_query = r'''
-<<<General terms>>>
-(anti NEAR/0f (semitism OR semitic OR semetism OR semetic OR semtism OR jew OR jews OR Jewish)) OR antisem?tism OR antisemtism OR antijew OR antijewish OR "anti-semitism" OR "anti-semetism" OR antisem?tic OR antisemite OR "anti-semite" OR "Jewish hate" OR Jewishhate OR Judeophobia OR #StandUpToJewishHate OR #EndJewHatred 
-
-OR Jew OR J3W OR Jewish OR Jews OR J3ws OR Judaism
-
-OR Chabad* OR synagogue* OR Yeshiva* OR Shul OR Mikveh* OR "star of david" OR starofdavid OR "Magen david" OR Magendavid OR Mezuzah OR Mezuzot OR tallis OR Tallit OR tefillin OR torah OR tehilim OR talmud OR yiddish OR Rabbi OR Rabbis OR Rabbinic* OR menorah OR Kipah OR Kippa OR Kipa OR Kippah OR yarmulke* OR shtreimel OR Mezuzah OR Mezuza OR kosher OR Shalom OR Emunah
-
-OR ✡️ OR 🕎 OR 🕍
-
-OR
-
-<<<derogatory terms>>>
-"bagel bender" OR "christ killer" OR "christ-killer" OR hebe OR heeb OR hymie OR kike OR turbokik OR Cryptokik OR turbokike OR Cryptokike OR amerikike OR amerigoi OR "crypto kike" OR "crypto-kike" OR cryptoJew OR "crypto jew" OR yid OR yahudi OR yahoodi OR Yahud OR yahood OR (zio NEAR/0f (pig OR pigs OR nazi OR nazis)) OR Zionazi* OR "anudda Shoah" OR annudashoah OR anuddahshoah OR "anuddah shoah" OR "oven dodger" OR "jewish features" OR "synagogue of satan" OR "oy vey" OR "satanic talmud" OR cohencidence OR "imposter Jews" OR "fake jew" OR "fake Jews" OR "Jew York" OR ((belong OR Kill OR killed) NEAR/50 ("Gas Chamber" OR "gas chambers")) OR "Jew down" OR Kvetching OR "oy gevalt"
-
-OR "totally joyful day" OR "totally nice day" OR "total Jew death" OR "total Jewish death" OR "total kike death" OR "talmud and endorse TKD" OR "Total kikes death" OR "total jews death" OR (TKD NEAR/10 TND) OR (TKD NEAR/10 TJD) OR (TJD NEAR/10 TND) OR (TKD NEAR/10 TND) OR (TKD NEAR/10 TJD) OR (TJD NEAR/10 TND) OR TJD.TKD
-
-OR
-
-<<<Conspiracy Theories>>>
-
-"Jewish privilege" OR "Jewish supremacy" OR "jew privilege" OR "jew supremacy" OR ((Jews OR jews OR jewish OR hebrew OR hebrews OR Zionist OR Zionists) NEAR/100 (traitor OR traitors OR greed OR power OR control OR evil OR sneky OR puppet OR warmong* OR bankster OR globalist OR cosmopolitan OR marxist* OR Capitalis* OR communis* OR lobby)) OR "Jew-down" OR
- 
-"blood libel" OR "great replacement" OR "new world order" OR "rothschild" OR "rothschilds" OR "jewish agenda" OR goy OR goyim OR "the goyim know" OR "the nose knows" OR "the noticing" OR "the deepstate" OR "Jewish mafia" OR "jewish cabal" OR "khazarian mafia" OR Khazars OR "khazaria" OR ("federal reserve" AND (Jew* OR control OR conspiracy OR Banksters OR Rothschild* OR CIA OR "New World Order")) OR "cosmopolitan elite" OR cosmopolitanelite* OR "elders of Zion" OR "kosher tax" OR Koshertax* OR (kosher NEAR/0f tax*) OR (("not" NEAR/1f "real") NEAR/1f (Jew OR Jews OR jewish)) OR (protocol* NEAR/3f (elder* OR Zion)) OR (Jews NEAR/3f 9/11) OR 1488 OR QAnon OR 14/88 OR "Jews will not replace us" OR {14-88} OR 8814 OR "14 words" OR 14words OR RaHoWa OR "Jews control" OR "Jews secretly" OR groyper OR groypers OR "deadly exchange" OR ("killed Jesus" AND (Jews OR they)) OR "30 pieces of silver"
-
-OR 
-<<<Holocaust Terms>>> 
-Holocaust OR shoah OR hitler OR "Adolf Eichmann" OR adolfEichmann OR "Joseph Mengele" OR JosephMengele OR "Dr Mengele" OR DRmengele OR "Henrich Himmler" OR Henrichhimmler OR "Reinhard Heydrich" OR ReinhardHeydrich OR nazi OR nazis OR Nazism OR "Third Reich" OR "3 reich" OR "3rd reich" OR SSHitler OR gestapo OR Heilhitler OR "heil hitler" OR "hail hitler" OR "seig hail" OR "seig heil" OR Seigheil OR swastika OR swastikas OR Fuhrer OR "aryan race" OR aryanrace OR Auschwitz OR Birkenau OR {auschwitz-Birkenau} OR "arbeit mecht frei" OR "work makes you free" OR "bergen belsen" OR {bergen-belsen} OR belzec OR Buchenwald OR Chelmno OR Dachau OR majdanek OR mauthausen OR sobibor OR Terezin OR teresienstadt OR Treblinka OR "dora Mittelbau" OR {dora-mittelbau} OR Flossenburg OR "gross rosen" OR {gross-rosen} OR Janowska OR Kaiserwald OR "Natzweiler Struthof" OR {Natzweiler-Struthof} OR Neuengamme OR Oranienburg OR Plaszow OR Ravensburck OR Sachsenhausen OR Stutthof OR Westerbork OR Ghetto OR "Anne Frank" OR annefrank OR Kristallnacht OR "night of the broken glass" OR "nuremberg code" OR "nuremberg trials" OR "wannsee conference" OR wannseeconference OR ashkenazi OR "gas chambers" OR gaschambers OR juden OR mischlinge OR "waffen-SS" OR "babi yar" OR "Evian conference" OR Kindertransport OR "Mein Kampf" OR (Germany NEAR/50 (1930 OR 1930s))
-
-OR (("6 million" OR 6mil* OR "six million" OR sixmil*) NEAR/1f ((wasnt OR {wasn't} OR "wasn t" OR "was not") NEAR/0f enough)) OR 6MWE OR "fourth Reich" OR h0l0c4ust OR h0l0caust OR h0l0hoax* OR holohoax* OR holocaugh OR holocough OR hol0hoax* OR "holo_hoax" OR "hitler was right" OR hitlerwasright OR "hitler is right" OR hitlerisright OR "holocaust_lies" OR holocaustisalie OR holocaustneverhappened OR "Jewish question" OR "Jewish problem" OR ("final solution" NEAR/1f "jewish") OR fakeholocaust OR "gas the kikes" OR {GTK} OR {GTKRWN} OR "6 gorillion" OR "six gorrilion" OR Judenrat OR "muh Holocause" OR holocaustneverhappened OR H1tler
-
-<<<hate groups>>>
-OR "the turner diaries" OR "white power world wide" OR #WPWW OR "white power" OR #whitepower OR Whitepower OR "goyim defense legaue" OR GDL OR "White Lives Matter" OR "blood tribe" OR "neo nazis" OR "neo-nazis" OR "White supremacists" OR "White supremacist" OR "white supremacy" OR "black supremacist" OR "Black Hebrew Israelites" OR "Nation of Islam"
-
-<<<College Campuses>>>
-
-OR "students for Justice in Palestine" OR SJP OR "Jewish Voices for peace" OR JVP OR "Columbia University Apartheid Divest" OR "Students for a democratic society" OR {SDS} OR "Young Democratic Socialists of America" OR {YDSA}
-
-<<<Jewish holidays>>>
-OR "rosh hashana" OR "Rosh hashanah" OR roshhashana OR Roshhashanah OR "shana tovah" OR "L'shana tova" OR "Yom kippur" OR YomKippur OR Sukkot OR "tu beshevat" OR "tu Bshevat" OR "tu B shevat" OR Purim OR Pesach OR Passover OR "Yom Hashoah" OR YomHashoah OR "Yom Hazikaron" OR YomHazikaron OR "Yom Ha'atzmaut" OR "Yom Haatzmaut" OR YomHaatzmaut OR (Israel* NEAR/0f "Independence day") OR "yom yerushalayim" OR YomYerushalayim OR "Shavuot" OR "Tisha B'av" OR "Tisha Bav" OR TishaBav OR "Shemini Atzeret" OR SheminiAtzeret OR "Simchat Torah" OR SimchatTorah OR Chanukah OR Hanukkah OR Hannukah OR "lag B'omer" OR "Lag B omer" 
-
-<<<Jewish organizations>>>
-
-OR "Anti-Defamation League" OR "anti defamation league" OR {ADL} OR "American Jewish Committee" OR {AJC} OR "foundation to combat antisemitism" OR {FCAS} OR "Stand up to Jewish hate" OR #StandUpTpJewishHate OR "whats up with hate" OR "hillel" OR "Jewish federation" OR "Jewish federations" OR {JFNA} OR {UJA} OR {CJP} OR {JCRC} OR #BanTheADL OR IHRA OR "International Holocaust Rememberance Alliance" OR AIPAC OR "American Israel Public Affairs Committee" OR "Secure community network" OR "JewBelong" OR "Simon Wiesenthal Center" OR "Zeta Beta Tau" OR {ZBT} OR "conference of presidents" OR "Stand with us" OR "Alpha Epsilon Phi" OR {AEPhi} OR "Hadassah" OR "creative community for peace" OR "Fuente Latina" OR "amcha Initiative"
-
-OR "Deborah Lipstadt" OR "jonathan Greenblatt" OR "Ted Deutch"
 '''
 
     # 1) Parse

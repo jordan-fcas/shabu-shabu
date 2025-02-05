@@ -368,7 +368,6 @@ if __name__ == "__main__":
     # (X AND Y) => AND(X,Y)
     # (A AND B) AND (C OR D) => expand to OR(AND(A,B,C), AND(A,B,D))
     sample_query = r'''
-(Jews AND (rich OR smart))
 '''
 
     sys.setrecursionlimit(10**7)
