@@ -105,8 +105,8 @@ def login_to_brandwatch_retry(email, password, max_retries=3):
 
 if __name__ == "__main__":
     login_to_brandwatch_retry(
-        email="jordanb@fcas.org",
-        password="Jazzmaster12!@#",  # Replace with your real password
+        email="",
+        password="",
         max_retries=3
     )
 
